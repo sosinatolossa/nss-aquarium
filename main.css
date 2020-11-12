@@ -1,0 +1,58 @@
+.fish__image{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+header {
+    display: flex;
+}
+
+
+main {
+    display: flex;
+    align-content: space-between;
+    ;
+}
+
+
+.fishList {
+    border: dotted 3px yellowgreen;
+    margin-bottom: 10px;
+}
+
+.quotes {
+    border: dotted 3px goldenrod;
+    margin-bottom: 10px;
+}
+
+.locations {
+    border: dotted 3px palevioletred;
+    margin-bottom: 10px;
+}
+
+.location__image {
+    height: 13em;
+    margin-bottom: 5px;
+}
+
+.container__left {
+    margin-right: 25px;
+    align-content: space-between;
+    border: 5px solid rgb(0, 204, 255);
+    padding: 15px;
+    background-color: lightblue;
+}
+
+.container__right {
+    flex: 1;
+    align-content: space-between;
+    border: 5px solid rgb(0, 204, 255);
+    padding: 15px;
+    background-color: lightblue;
+}
+
+.tip {
+    border: dotted 5px lightsalmon;
+    align-content: space-between
+}
+
