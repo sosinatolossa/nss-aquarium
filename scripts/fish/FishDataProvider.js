@@ -51,7 +51,7 @@ export const soldierFish = () => {
 
     // 5, 10, 15, 20, 25, etc... fish
     for (const fish of fishCollection) {
-        if (fish.lenght % 5 === 0) {
+        if (fish.length % 5 === 0 && fish.length % 3 !== 0) {
             //console.log(fish)
             soldiers.push(fish)
         }
@@ -65,7 +65,7 @@ export const nonHolyFish = () => {
 
     // Any fish not a multiple of 3 and 5
     for (const fish of fishCollection) {
-        if (fish.length % 5 !== 0 && fish.length % 5 !== 0) {
+        if (fish.length % 3 !== 0 && fish.length % 5 !== 0) {
             //console.log(fish)
             regularFish.push(fish)
         }
