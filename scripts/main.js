@@ -1,5 +1,5 @@
 
-import {FishList} from "./FishList.js"
+import {FishList} from "./fish/FishList.js"
 import { LocationList } from "./locations/LocationList.js"
 import {TipList} from "./tips/TipsList.js"
 
