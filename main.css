@@ -1,6 +1,9 @@
-.fish__image{
+.fish__image, .location__image{
     display: flex;
     margin-bottom: 5px;
+    height: 15em;
+    width: 20em;
+    padding: 5px;
 }
 
 header {
@@ -11,34 +14,31 @@ header {
 main {
     display: flex;
     align-content: space-between;
-    ;
+    padding: 5px;
 }
 
 
 .fishList {
     border: dotted 3px yellowgreen;
     margin-bottom: 10px;
+    padding: 5px;
 }
 
 .quotes {
     border: dotted 3px goldenrod;
     margin-bottom: 10px;
+    padding: 5px;
 }
 
 .locations {
     border: dotted 3px palevioletred;
     margin-bottom: 10px;
+    padding: 5px;
 }
-
-.location__image {
-    height: 13em;
-    margin-bottom: 5px;
-}
-
 .container__left {
     margin-right: 25px;
     align-content: space-between;
-    border: 5px solid rgb(0, 204, 255);
+    border: 3px solid rgb(0, 204, 255);
     padding: 15px;
     background-color: lightblue;
 }
@@ -46,7 +46,7 @@ main {
 .container__right {
     flex: 1;
     align-content: space-between;
-    border: 5px solid rgb(0, 204, 255);
+    border: 3px solid rgb(0, 204, 255);
     padding: 15px;
     background-color: lightblue;
 }
